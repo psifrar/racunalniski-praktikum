@@ -3,8 +3,26 @@ color: #330066
 }
 h2 {
 margin-top: 2em;
-
+width: 1px;
+color: #AAAAAA;
+border-top-style: solid;
+padding-top: 0.5em;
 }
+#uvod {
+padding: 2em;
+background-color: rgb(51, 0, 102, 0.1);
+}
+.slika img{border-color: red;
+    line-height: 30px ;
+    border-style: solid;
+width: 100%;
+height: auto;
+float: right;
+margin-left: 2em}
+
+p {font-size: 0.9em;
+    font-stretch: 40%;
+text-align: left;}
 
 body {
     /*  Barva pisave pod značko oz. oznako  */
