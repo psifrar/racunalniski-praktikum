@@ -3,8 +3,8 @@ color: #330066
 }
 h2 {
 margin-top: 2em;
-width: 1px;
-color: #AAAAAA;
+border-top: 1px;
+border-top: #AAAAAA;
 border-top-style: solid;
 padding-top: 0.5em;
 }
@@ -12,17 +12,30 @@ padding-top: 0.5em;
 padding: 2em;
 background-color: rgb(51, 0, 102, 0.1);
 }
-.slika img{border-color: red;
-    line-height: 30px ;
-    border-style: solid;
-width: 100%;
-height: auto;
-float: right;
-margin-left: 2em}
-
-p {font-size: 0.9em;
+.slika {
+    font-size: 0.9em;
     font-stretch: 40%;
-text-align: left;}
+    text-align: left;
+    float: right;
+    margin-left: 2em;
+    
+}
+.slika img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.slika p:last-child {font-size: 0.8em;
+    padding-top: 0.07%;
+}
+
+#hey::before {
+    content: ">>>";
+    color: aquamarine;
+
+}
+
+
 
 body {
     /*  Barva pisave pod značko oz. oznako  */
